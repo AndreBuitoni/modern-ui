@@ -2,8 +2,8 @@ import { StyleSheet, Text, View } from 'react-native'
 
 export default function Profile() {
   return(
-    <View style={StyleSheet.container}>
-      <Text>Página Perfil</Text>
+    <View style={styles.container}>
+      <Text style={styles.paragraph}>Página Perfil</Text>
     </View>
   )
 }
@@ -11,8 +11,13 @@ export default function Profile() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#040316',
+    backgroundColor: '#181818',
     alignItems: 'center',
     justifyContent: 'center',
   },
+  paragraph: {
+    color: '#ff2222',
+    fontWeight: '900',
+    fontSize: 30
+  }
 })

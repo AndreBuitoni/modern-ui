@@ -52,7 +52,7 @@ export function Home() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#040316',
+    backgroundColor: '#181818',
     paddingTop: 30,
     // paddingTop: Platform.OS === 'android' ? statusBarHeight : 25
   },
@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
     width: '98%',
     height: 120,
     marginBottom: 20,
-    backgroundColor: '#f1f1f1',
+    backgroundColor: '#555555',
     alignItems: 'center',
     justifyContent: 'center'
   }

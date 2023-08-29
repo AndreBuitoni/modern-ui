@@ -1,9 +1,9 @@
 import { StyleSheet, Text, View } from 'react-native'
 
-export default function Drink() {
+export default function Lojas() {
   return(
     <View style={styles.container}>
-      <Text style={styles.paragraph}>Página Fazer Drink</Text>
+      <Text style={styles.paragraph}>Página Lojas</Text>
     </View>
   )
 }
